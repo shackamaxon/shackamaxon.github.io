@@ -1,15 +1,14 @@
-<h1>Welcome to VidFinder<h1>
-vg=input("What is your favorite genre of video game? /n FPS (First person shooter) /n Stealth /n Racing")
+##Welcome to VidFinder
+question = input("What is your question? ")
 
-print("Alrighty")
+print("Let me think about that...")
 import time
-time.sleep(3)
+time.sleep(10) # delays for 10 seconds
 
-print("")
-print(question)
+print("I don't want to answer that question right now.")
+answer = input(question)
 
 print("Ha ha ha")
-  
   
   
   
